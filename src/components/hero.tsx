@@ -24,7 +24,7 @@ export const Hero = () => {
                     <h1 className="font-bold text-neutral-400 dark:text-neutral-300 text-4xl md:text-3xl xl:text-6xl">
                         Hey there! 👍
                     </h1>
-                    <h1 className="text-5xl font-semibold text-neutral-600 dark:text-neutral-200 md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-6xl ">
+                    <h1 className="text-5xl font-semibold text-neutral-600 dark:text-neutral-200 md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-6xl ">
                         I&rsquo;m Abraham Henry
                     </h1>
                     <div className="">
@@ -35,11 +35,11 @@ export const Hero = () => {
                                 "Fullstack web developer", 1000,
                             ]}
                             wrapper="span"
-                            style={{ fontSize: "2rem", display: "inline-block", color: "grey" }}
+                            style={{ fontSize: "1rem", display: "inline-block", color: "grey" }}
                             speed={50}
                             repeat={Infinity} />
                     </div>
-                    <p className="text-neutral-500 dark:text-neutral-100 text-md md:text-sm lg:text-sm xl:text-lg w-full">I design, develop, and maintain software applications. My role involves writing code in various programming languages, solving complex problems, and collaborating with teams to deliver functional software that meets user or business needs. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <p className="text-neutral-500 dark:text-neutral-100 text-md md:text-sm lg:text-sm xl:text-lg w-full">I design, develop, and maintain software applications. My role involves writing code in various programming languages, solving complex problems, and collaborating with teams to deliver functional software that meets user or business needs. </p>
 
                     <Link href="" className="w-full mt-4">
                         <button className="flex items-center justify-center gap-x-2 text-lg px-4 py-2 rounded-md bg-neutral-800 hover:bg-neutral-800/80 dark:text-neutral-900 dark:bg-neutral-100  dark:hover:bg-neutral-300 text-neutral-200 w-full xl:w-6/12 xl:text-2xl">
