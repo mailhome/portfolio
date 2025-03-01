@@ -35,7 +35,7 @@ export const Hero = () => {
                                 "Fullstack web developer", 1000,
                             ]}
                             wrapper="span"
-                            style={{ fontSize: "1rem", display: "inline-block", color: "grey" }}
+                            style={{ fontSize: "1.5rem", display: "inline-block", color: "grey" }}
                             speed={50}
                             repeat={Infinity} />
                     </div>

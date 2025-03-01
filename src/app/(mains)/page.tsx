@@ -1,14 +1,17 @@
 
-import { Hero } from "@/components/hero";
-import { MainContent } from "@/components/main-content";
-
+import { Hero } from "@/components/hero/hero";
+import { Info } from "@/components/info/info";
+import { Portfolio } from "@/components/portfolio/portfolio";
+import { Skills } from "@/components/skills/skills";
 
 
 export default function Home() {
   return (
     <main className="w-full h-full">
       <Hero />
-      <MainContent />
+      <Info />
+      <Skills />
+      <Portfolio />
     </main>
   );
 }

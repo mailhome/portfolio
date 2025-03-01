@@ -1,5 +1,5 @@
 import { BadgeCheck } from "lucide-react";
-import { HeadingProps } from "./heading-props";
+import { HeadingProps } from "../header/heading-props";
 import { FrontendItems } from "./frontend-items";
 import { BackendItems } from "./backend-items";
 import { DevopsItems } from "./devops-item";
@@ -139,13 +139,13 @@ const devops = [
 
 export const Skills = () => {
     return (
-        <div className="mt-[90vh] md:mt-56 lg:mt-80 w-full h-auto">
+        <div className="mt-[93vh] md:mt-28 lg:mt-80 w-full h-auto">
             <div className="width-container 2xl:px-[100px]">
                 <HeadingProps
                     heading="Skills"
                     desc="My Technical level"
                     className="" />
-                <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-4 xl:gap-x-10">
+                <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-2 xl:gap-x-10">
                     <div className="bg-white rounded-2xl h-[80vh] py-4 mt-10">
                         <h1 className="text-xl text-center pt-8">Frontend Developer</h1>
                         <div className="grid grid-cols-2  py-6 w-8/12 md:w-8/12 lg:w-9/12 gap-y-8 gap-x-20  md:gap-x-10 mx-auto ml-28 md:ml-48 lg:ml-12 lg:gap-x-4">

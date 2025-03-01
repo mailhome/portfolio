@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { Logo } from "./logo";
-import { ModeToggle } from "./mode-toggle";
+
 import { VscGithubAlt } from "react-icons/vsc";
 import { FaXTwitter, FaUpwork } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
+import { ModeToggle } from "../mode-toggle";
 import { SocialItem } from "./social-item";
+
 
 
 const routes = [
