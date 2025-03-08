@@ -43,7 +43,7 @@ export const Hero = () => {
 
                     <Link href="" className="w-full mt-4">
                         <button className="flex items-center justify-center gap-x-2 text-lg px-4 py-2 rounded-md bg-neutral-800 hover:bg-neutral-800/80 dark:text-neutral-900 dark:bg-neutral-100  dark:hover:bg-neutral-300 text-neutral-200 w-full xl:w-6/12 xl:text-2xl">
-                            <p className="font-thin">View Works</p>
+                            <p className="font-thin">View Works </p>
                             <BriefcaseBusiness className="size-6" />
                         </button>
                     </Link>

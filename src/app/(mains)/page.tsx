@@ -1,4 +1,5 @@
 
+import { Contact } from "@/components/contact/contact";
 import { Hero } from "@/components/hero/hero";
 import { Info } from "@/components/info/info";
 import { Portfolio } from "@/components/portfolio/portfolio";
@@ -12,6 +13,7 @@ export default function Home() {
       <Info />
       <Skills />
       <Portfolio />
+      <Contact />
     </main>
   );
 }

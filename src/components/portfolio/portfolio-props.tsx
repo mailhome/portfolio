@@ -28,7 +28,7 @@ export const PortfolioProps = ({
                     fill
                     className="absolute rounded-t-2xl" />
             </div>
-            <div className={cn("flex flex-col bg-white items-start justify-start py-2 px-8 gap-y-2 shadow-lg rounded-b-2xl", className)}>
+            <div className={cn("flex flex-col bg-slate-200 dark:bg-white  items-start justify-start py-2 px-8 gap-y-2 shadow-lg rounded-b-2xl", className)}>
                 <h1 className="font-bold text-xl text-neutral-900">{headingProps}
                 </h1>
                 <p className="text-muted-foreground text-sm">{desc}</p>

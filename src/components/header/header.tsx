@@ -6,6 +6,7 @@ import { FaXTwitter, FaUpwork } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import { ModeToggle } from "../mode-toggle";
 import { SocialItem } from "./social-item";
+import { Social } from "./social";
 
 
 
@@ -33,27 +34,7 @@ const routes = [
     },
 ]
 
-const socials = [
-    {
-        icon: VscGithubAlt,
-        href: "https://github.com/olawoyin1"
-    },
 
-    {
-        icon: FaXTwitter,
-        href: "https://x.com/OlawoyinGbolah3"
-    },
-
-    {
-        icon: CiLinkedin,
-        href: "https://www.linkedin.com/in/olawoyin1/"
-    },
-
-    {
-        icon: FaUpwork,
-        href: "https://www.upwork.com/freelancers/~01c582f3f3e721b2c9"
-    }
-]
 
 export const Header = () => {
     return (
@@ -78,14 +59,7 @@ export const Header = () => {
                     </div>
 
                     <div className="flex items-center justify-center gap-x-4 2xl:gap-x-6 ">
-                        <div className="flex items-center justify-center gap-x-4 2xl:gap-x-6 text-neutral-800 dark:text-neutral-200">
-                            {socials.map(({ icon, href }) => (
-                                <SocialItem
-                                    key={href}
-                                    icon={icon}
-                                    href={href} />
-                            ))}
-                        </div>
+                        <Social />
                         <ModeToggle />
                     </div>
                 </div>

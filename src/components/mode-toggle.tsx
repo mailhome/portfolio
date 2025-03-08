@@ -14,8 +14,8 @@ export const ModeToggle = () => {
             size="icon"
             className=""
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
-            <MdOutlineWbSunny className="absolute h-10 w-10 rotate-90 scale-0 dark:-rotate-0 dark:scale-100" />
-            <LuMoon className="absolute h-10 w-10 rotate-0 scale-100 dark:-rotate-90 dark:scale-0" />
+            <MdOutlineWbSunny className="absolute h-10 w-10 rotate-90 scale-0 dark:-rotate-0 dark:scale-100 text-white" />
+            <LuMoon className="absolute h-10 w-10 rotate-0 scale-100 dark:-rotate-90 dark:scale-0 " />
         </Button>
     );
 }

@@ -37,7 +37,7 @@ export const Portfolio = () => {
 
                 <div onClick={() => { }} className="w-full mt-4">
                     <button className="flex items-center justify-center gap-x-2 text-lg px-4 py-2 rounded-md bg-neutral-800 hover:bg-neutral-800/80 dark:text-neutral-900 dark:bg-neutral-100  dark:hover:bg-neutral-300 text-neutral-200 w-full md:w-3/12 xl:w-2/12 xl:text-2xl mx-auto">
-                        <p className="font-thin text-xl">Load</p>
+                        <p className="text-xl">Load</p>
                         <LoaderCircle className="size-4" />
                     </button>
                 </div>

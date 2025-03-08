@@ -146,7 +146,7 @@ export const Skills = () => {
                     desc="My Technical level"
                     className="" />
                 <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-2 xl:gap-x-10">
-                    <div className="bg-white rounded-2xl h-[80vh] py-4 mt-10">
+                    <div className="bg-slate-200 dark:bg-white rounded-2xl h-[80vh] py-4 mt-10">
                         <h1 className="text-xl text-center pt-8">Frontend Developer</h1>
                         <div className="grid grid-cols-2  py-6 w-8/12 md:w-8/12 lg:w-9/12 gap-y-8 gap-x-20  md:gap-x-10 mx-auto ml-28 md:ml-48 lg:ml-12 lg:gap-x-4">
                             {frontend.map(({ label, level, icon }) => (
@@ -159,7 +159,7 @@ export const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-2xl h-[80vh] py-4 mt-10 w-full">
+                    <div className="bg-slate-200 dark:bg-white  rounded-2xl h-[80vh] py-4 mt-10 w-full">
                         <h1 className="text-xl text-center pt-8">Backend Developer</h1>
                         <div className="grid grid-cols-2  py-6 w-8/12 md:w-8/12 lg:w-9/12 gap-y-8 gap-x-20  md:gap-x-10 mx-auto ml-28 md:ml-40 lg:ml-8 lg:gap-x-4">
                             {backend.map(({ label, level, icon }) => (
@@ -172,7 +172,7 @@ export const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-2xl h-[80vh] py-4 mt-10 w-full">
+                    <div className="bg-slate-200 dark:bg-white  rounded-2xl h-[80vh] py-4 mt-10 w-full">
                         <h1 className="text-xl text-center pt-8">System Engineering & DevOps</h1>
                         <div className="grid grid-cols-2  py-6 w-8/12 md:w-8/12 lg:w-9/12 gap-y-8 gap-x-20  md:gap-x-10 mx-auto ml-28 md:ml-40 lg:ml-8 lg:gap-x-4">
                             {devops.map(({ label, level, icon }) => (
